@@ -39,8 +39,19 @@ body {
 	justify-content: center;
 }
 
-button {
+#cat_btn {
 	background-color: darksalmon;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+#dog_btn {
+	background-color: rgb(122, 189, 233);
 	border: 0;
 	border-radius: 4px;
 	color: #fff;
@@ -56,4 +67,25 @@ button:active {
 
 button:focus {
 	outline: none
+}
+
+@media (max-width: 320px) {
+    .result {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        height: 100%;
+    }
+
+    .results, .buttons {
+        flex-direction: column;
+    }
+
+    .result {
+        height: 90vh;
+        width: 90vw;
+    }
 }

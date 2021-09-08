@@ -1,5 +1,5 @@
 # Random Cat 🐈 & Dog 🐕 images
-Random Cat/Dog images from APIs.
+Random Cat & Dog images from APIs.
 
 APIs used:
 
